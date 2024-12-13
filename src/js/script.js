@@ -40,3 +40,17 @@ document.addEventListener('DOMContentLoaded', () => {
     skillBars.forEach(bar => skillObserver.observe(bar));
 });
 // animasi skill end
+
+// dark mode toggle
+
+const darkToggle = document.querySelector('#dark-toggle');
+const html = document.querySelector('html');
+
+darkToggle.addEventListener('click', function() {
+    if (darkToggle.checked) {
+        html.classList.add('dark');
+    } else {
+        html.classList.remove('dark');
+    }
+});
+

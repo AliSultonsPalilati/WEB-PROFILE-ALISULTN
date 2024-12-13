@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [`index.html`],
+  darkMode: 'class',
   theme: {
     container: {
       center: true,
@@ -12,7 +13,8 @@ module.exports = {
         font: '#0284c7',//warna text nama besar
         bgPrimary: '#0d9488', //background color
         brmprimary: '#64748b', //text pudar
-        ftrPrimary: '#020617' //background color fotter
+        ftrPrimary: '#020617', //background color fotter
+        dark : '#f172a',
       },
       screens : {
         'xl' : '1280',
